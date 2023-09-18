@@ -19,13 +19,12 @@ function Count(props) {
          
          <p>Count: {counters}</p>
          </div>
-       <Link to="/home"> <img src={ images.flipkart } alt="img" />
+       <Link to="/home"> <img src={ images.sea } alt="img" />
        </Link>
        <img src={ images.m } alt="img" />
-       <img src={ images.sea } alt="img" />
        <img src={ images.nature } alt="img" />
-        <img src={ images.flipkart } alt="img" />      
-      </div>
+        <img src={ images.sea } alt="img" />      
+        </div>
    );
 }
 // }

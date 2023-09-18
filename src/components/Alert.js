@@ -1,5 +1,4 @@
 import React from 'react'
-// import style from './css';
 function Alert(props) {
   return (
     props.alert && <div className={`"alert alert-${props.alert.type} alert-dismissible fade show"`} role="alert">
